@@ -1,0 +1,43 @@
+Data Encryption Program:
+A company aims to enhance the security of its transmitted data over the telephone. You are tasked with developing a program that encrypts four-digit integers according to specific rules. The encryption process involves adding 5 to each digit, taking the remainder after dividing the result by 10, swapping the first digit with the third, and swapping the second digit with the fourth.
+Output should prints the encrypted integer value
+
+Example with Explanations:
+
+For example,
+
+Input:
+3672
+
+Explanation: In the encryption process, each digit of the given four-digit integer is individually modified by adding 5 to it and taking the remainder after dividing the sum by 10. Following this, the first and third digits are swapped, and the second and fourth digits are also interchanged. For instance, considering the input 3672, the modified digits become 8, 1, 2, and 7, respectively, after the initial step. The swapping results in the sequence 2781, and thus, the encrypted integer is
+
+Output:
+2781
+
+Constraints:
+
+The input must be 4-digit integer. if it is LESS then four , print "Provided input is less than 4, enter four digit integers".
+if it is greater than four, print "Provided input is more than 4, enter four digit integers"
+The input must be a positive integer. if it is NOT satisfied this condition, print "Enter positive 4-digit integer"
+The input value must not contain any string if it is NOT satified this condition, print "Enter only integer value"
+Conditions Need to Meet,
+
+Handle errors for invalid input with proper message
+
+Input and Output Format:
+
+Sample Exercise:- 1
+
+Input:
+3662
+
+Output:
+1781
+
+Sample Exercise:- 2
+
+Input:
+4537
+
+Output:
+8290
