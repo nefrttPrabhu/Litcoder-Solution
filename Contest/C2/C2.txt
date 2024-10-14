@@ -1,0 +1,32 @@
+Distance of elements:
+You are given an array of integers, which may be unsorted and can contain duplicate elements. You need to determine if there are any duplicate elements within a specific distance "k" from each other.
+The "distance" between two elements is defined as the difference between their indices in the array. The function should return "Yes" if there are duplicates within the distance "k", otherwise, return "No".
+Sample Example:
+Input:
+1 2 3 4 1
+4
+Note:
+Line 1: An array arr[] of integers (the array may be unsorted and contain duplicates).
+Line 2: An integer k, which represents the maximum allowed distance between duplicate elements.
+Output:
+Yes
+Note:
+Return "Yes" if any duplicate elements are found within the distance k from each other, otherwise return "No".
+Explanation:
+The element 1 appears twice within a distance of 4( Which means 0-4 ).
+Exercise-1:
+
+Input:
+9 5 2 4 2 5 7
+1
+
+Output:
+No
+Exercise-2:
+
+Input:
+9 5 2 4 2 5 7
+4
+
+Output:
+Yes
